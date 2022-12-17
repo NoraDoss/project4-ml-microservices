@@ -1,1 +1,26 @@
 <paste log output from Kubernetes-mediated prediction, here>
+
+
+
+
+(base) nora@Noras-MacBook-Pro project-ml-microservice-kubernetes % ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+
+
+
+(base) nora@Noras-MacBook-Pro project-ml-microservice-kubernetes % ./run_kubernetes.sh                   
+Error from server (AlreadyExists): pods "myproject" already exists
+NAME        READY   STATUS    RESTARTS   AGE
+myproject   1/1     Running   0          128m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+
+
